@@ -1,0 +1,30 @@
+body{
+margin:  120px;
+padding: 120px;
+display: grid;
+justify-content: center;
+align-items: center;
+height: 100hv;
+    background-image: url(foto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: center;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+p{
+    font-size: 20px;
+    color:red;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(20% - 20px);
+    box-sizing: border-box;
+    max-width: 500px;
+  }
+  .item img {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+  }
+  .item .text {
+    flex: 10;
+  }
+  body{
+    background-image: url(pexels-dialnutrition-806457.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: center;
